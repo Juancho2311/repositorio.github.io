@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "Segoe UI";
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+}
+
+header .logo img {
+    height: 70px;
+    margin-left: 40px;
+}
+
+header .menu a {
+    margin-right: 10px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+section .home {
+    height: 600px;
+    background-image: radial-gradient(circle at 50.33% 53.73%, #303968 0, #1f2e5f 50%, #072356 100%);
+    background-image: url(/img/Proyecto\ nuevo.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section .home .logo_perfil {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .home .logo_perfil img {
+    border-radius: 500%;
+    height: 250px;
+    width: 250px;
+}
+
+section .home .informacion_personal {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+section .home .informacion_personal h2 {
+    font-size: 30px;
+    margin-top: -30px;
+    color: white;
+}
+
+section .home .informacion_personal h1 {
+    font-size: 45px;
+    margin-top: -10px;
+    color: white;
+}
+
+section .home .informacion_personal p {
+    font-size: 15px;
+    margin-top: -30px;
+    color: white;
+}
+
+section .about {
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section .about .quien_soy {
+    height: 600px;
+    width: 600px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.quien_soy h4 {
+    font-size: 30px;
+}
+
+.quien_soy h1 {
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.quien_soy h3 {
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.quien_soy p {
+    font-size: 20px;
+}
+
+section .about .skill {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+section .about .skill h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #072356;
+
+}
+
+section .about .skill .lenguajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 110px;
+}
+
+section .about .skill .lenguajes .lenguaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .about .skill .lenguajes .lenguaje img {
+    width: 70px;
+    height: 70px;
+}
+
+section .portfolio {
+    height: 500px;
+    background-image: radial-gradient(circle at 50.33% 53.73%, #303968 0, #1f2e5f 50%, #072356 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+section .portfolio .titulo_portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+section .portfolio .cartas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section .portfolio .cartas .card_info {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    color: #072356;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+section .portfolio .card_info .imagen {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+section .portfolio .card_info img {
+    width: 90%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+section .portfolio .card_info .info {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .portfolio .card_info .info button {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    background-color: #072356;
+    color: white;
+}
+
+section .contac {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+section .contac .info {
+    color: #072356;
+    height: 120px;
+    margin-left: 100px;
+
+}
+
+section .contac .redes_contactos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+section .contac .redes_contactos img {
+    height: 70px;
+    width: 70px;
+}
+
+section .contac .redes_contactos .linkedin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .contac .redes_contactos .Github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .contac .redes_contactos .correo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .contac .redes_contactos .instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 2, 2);
+
+}
+
+footer .final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+}
+
+footer .final .two p{
+    margin-top: -10px;
+}
+
+
